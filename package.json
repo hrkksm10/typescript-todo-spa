@@ -1,0 +1,19 @@
+{
+  "name": "spa",
+  "version": "1.0.0",
+  "description": "sample",
+  "scripts": {
+    "build": "grunt"
+  },
+  "author": "hrkksm10",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-handlebars": "^1.0.0",
+    "grunt-contrib-requirejs": "^1.0.0",
+    "grunt-shell": "^2.1.0",
+    "grunt-tslint": "^5.0.1",
+    "tslint": "^5.4.3",
+    "typescript": "^2.4.1"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "amd",
+    "lib": ["dom", "es2017"],
+    // "allowJs": true,
+    // "checkJs": true,
+    // "jsx": "preserve",
+    // "declaration": true,
+    "sourceMap": true,
+    // "outFile": "./",
+    // "outDir": "./",
+    // "rootDir": "./",
+    // "removeComments": true,
+    // "noEmit": true,
+    // "importHelpers": true,
+    // "downlevelIteration": true,
+    // "isolatedModules": true,
+
+    /* Strict Type-Checking Options */
+    // "strict": true,
+    "noImplicitAny": true,
+    // "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Module Resolution Options */           
+    // "moduleResolution": "node",
+    "baseUrl": "src/types",
+    "paths": {
+      "underscore": ["underscore/index.d.ts"],
+      "backbone": ["backbone/index.d.ts"]
+    },
+    // "rootDirs": [],
+    "typeRoots": ["src/types"]
+    // "types": [],
+    // "allowSyntheticDefaultImports": true,
+
+    /* Source Map Options */                  
+    // "sourceRoot": "./",
+    // "mapRoot": "./",
+    // "inlineSourceMap": true,
+    // "inlineSources": true,
+
+    /* Experimental Options */
+    // "experimentalDecorators": true,
+    // "emitDecoratorMetadata": true,
+  },
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "exclude": [
+    "src/types",
+    "src/lib"
+  ]
+}
