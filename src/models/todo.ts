@@ -18,7 +18,7 @@ export default class Todo extends Backbone.Model {
     }
 
     public toggle() {
-        this.save({done: !this.get('done')});
+        this.set({done: !this.get('done')});
     }
 
     public clear() {
